@@ -1,7 +1,6 @@
 import path from 'path';
 import * as grpc from '@grpc/grpc-js';
 import * as protoLoader from '@grpc/proto-loader';
-import { ServiceClientConstructor } from '@grpc/grpc-js';
 import { ProtoGrpcType } from './generated/a';
 import { AddressBookServiceHandlers } from './generated/AddressBookService';
 
